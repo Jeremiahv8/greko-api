@@ -5,6 +5,6 @@
   header('Content-type: application/json');
   echo json_encode( $data );
 
-  echo "<script>console.log('" . $data . "');</script>";
+  print( "<script>console.log('" . $data . "');</script>");
 
 ?>
